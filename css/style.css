@@ -1,0 +1,130 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+ }
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.all{
+  font-family: Verdana, sans-serif;
+  padding: 0 5% 0 5%;
+}
+
+.heading{
+  font-family: 'Orbitron', sans-serif;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.main h1{
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.main h3{
+  padding-bottom: 2rem;
+}
+
+.main h2{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.border{
+  height: .5rem;
+  width: 100%;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.apod-info{
+  padding-top: 2rem;
+}
+
+.apod-info h3{
+  margin-bottom: 0;
+}
+
+.apod-info p + p{
+  padding: 2rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+img{
+  display: block;
+  width: 100%;
+  
+}
+
+/* .video-containter{
+  height: 100%;
+} */
+
+iframe{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  /* padding: auto; */
+  /* margin: 0 auto; */
+}
+
+.container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.selection{
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: .1rem .2rem .2rem .1rem black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  width: fit-content;
+  
+}
+
+.instructions{
+  padding-top: 1rem;
+}
+.instructions span {
+  font-size: .8rem;
+}
+
+footer{
+  font-family: 'Orbitron', sans-serif;
+  font-size: .8rem;
+  padding: 2rem 0 1rem 0;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

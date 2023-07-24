@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>PDX Astronomers</title>
+		<!-- STYLESHEETS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section class="all">
+			<div class="main">
+				<h1 class="heading">PDX Astronomers</h1>
+				<h3>PRESENTS</h3>
+				<h2 class="heading">NASA Astronomy Picture of the Day</h2>
+
+				<div class="border"></div>
+
+				<section class="apod">
+					<div class="apod-info">
+						<h2 class="heading title"></h2>
+						<h3 class="heading date"></h3>
+						<h4 class="heading">Copyright:</h4>
+						<p class="heading copyright"></p>
+						<p class="explanation"></p>
+					</div>
+					<div>
+						<img id="image-element" class="hidden" src="" alt="">
+					</div>
+					<div class="video-container">
+						<iframe id="video-element" class="hidden" src="" frameborder="0"></iframe>
+					</div>
+				<!-- Add an error message container to show errors, if any -->
+					<div id="error-container"></div>
+				</section>
+				<div class="container">
+					<section class="selection">
+						<input type="date" name="" value="">
+						<button type="button" name="button">Get Media</button>
+						<div class="instructions">
+							<p>Select date from the dropdown to get NASA's APOD <br><span class="default">*Default Date is Today</span></p>
+						</div>
+					</section>
+				</div>
+				<footer> 
+					<p>&copy; 2023 PDX Astronomers | Built by: <a href="https://rachelrice.netlify.app" target="_blank">Rachel Rice</a></p>
+				</footer>
+			</div>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
