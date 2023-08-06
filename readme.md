@@ -1,7 +1,7 @@
 # PDX Astronomers
 This is a site for PDX astronomers that calls on NASA's api for a the NASA picture of the day.
 
-**Link to project:** not hosted yet
+**Link to project:** https://pdxastronomers.netlify.app/
 
 ![alt tag](img/screenshot1.png)
 
